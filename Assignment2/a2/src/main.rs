@@ -1,7 +1,11 @@
+
+
 // Problem 4:
 // max_sort takes as input an array of integers and returns the array sorted from smallest to largest
 fn max_sort(arr: &mut [i32]) {
     println!("Starting:\n{:?}", arr);
+    // store number of comparisons
+    let mut comps = 0;
     // set the end value to the last entry in the array
     let mut end_val = arr.len() - 1;
     // while the last value is not the beginning, repeat
@@ -12,6 +16,7 @@ fn max_sort(arr: &mut [i32]) {
         // iterate until the end value of the unsorted vals
         for num in 0..=end_val {
             // find largest value and store corresponding index
+            comps += 1;
             if arr[num] > max {
                 max = arr[num];
                 index = num;
@@ -27,6 +32,7 @@ fn max_sort(arr: &mut [i32]) {
         println!("{:?}", arr);
     }
     println!("Sorted:\n{:?}", arr);
+    println!("Comparisons: {}", comps);
 }
 
 
@@ -40,7 +46,7 @@ fn roman_numeral(mut value: i32) -> String{
     let rep_vals: [i32; 13] = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
     let rep: [&str; 13] = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"];
     // until value is 0, find largest match in rep_vals and add the corresponding rep to 
-    // return value
+    // roman_num to be returned
     while value > 0 {
         for num in 0..=rep_vals.len() - 1 {
             if value >= rep_vals[num] {
