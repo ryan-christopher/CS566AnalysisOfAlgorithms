@@ -1,5 +1,3 @@
-
-
 // Problem 4:
 // max_sort takes as input an array of integers and returns the array sorted from smallest to largest
 fn max_sort(arr: &mut [i32]) {
