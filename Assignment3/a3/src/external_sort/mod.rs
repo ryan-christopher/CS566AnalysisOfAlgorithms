@@ -1,16 +1,14 @@
 use std::collections::VecDeque;
+use std::fmt::write;
 use std::fs;
 use std::fs::read_to_string;
 use std::io::Write;
 use std::time::Instant;
 
-// will need support for: mergesort, heapsort, quicksort, 
-// and binary tree based algorithms
-
 pub fn sort(method: &str, file: &str) {  
     let now = Instant::now();
     // ===== Go through large file, create smaller ones =====
-    let temp_unsorted_dir = fs::create_dir("./temp_unsorted_files");
+    fs::create_dir("./temp_unsorted_files").expect("Error creating unsorted folder.");
     let mut counter = 0;
     let mut temp_file_number = 1;
     let mut temp_file_name: String = "./temp_unsorted_files/temp".to_owned();
@@ -20,7 +18,7 @@ pub fn sort(method: &str, file: &str) {
     for line in read_to_string(file).unwrap().lines() {
         temp_file.write_all(line.as_bytes()).expect("Can not write to file.");
         counter += 1;
-        if counter > 2 {
+        if counter > 5000 {
             counter = 0;
             temp_file_number += 1;
             temp_file_name = "./temp_unsorted_files/temp".to_owned();
@@ -32,9 +30,7 @@ pub fn sort(method: &str, file: &str) {
     // ======================================================
 
 
-    let temp_sorted_dir = fs::create_dir("./temp_sorted_files");
-    // can delete this later, temp file number will still be at 100
-    //let temp_file_number = 100;
+    fs::create_dir("./temp_sorted_files").expect("Error creating sorted folder.");
     
     let mut temp_sorted_file_number = 1;
     while temp_sorted_file_number <= temp_file_number {
@@ -46,31 +42,31 @@ pub fn sort(method: &str, file: &str) {
         temp_unsorted_file_name.push_str(&temp_sorted_file_number.to_string());
         temp_unsorted_file_name.push_str(".txt");
 
-        // can remove let mut later
+
         let mut temp_sorted_file = fs::OpenOptions::new().append(true).create(true).open(&temp_sorted_file_name).expect("Can not open file.");
         let contents = fs::read_to_string(&temp_unsorted_file_name).expect("txt file");
         // mergesort 
         if method == "mergesort" {
             let values: Vec<i32> = contents.trim().split_whitespace().map(|i| i.parse::<i32>().unwrap()).collect();
-            //let values = merge_sort(&values).into_iter().map(|i| i.to_string()).collect::<String>();
             let sort_values: String = merge_sort(&values).into_iter().map(|i| i.to_string() + " ").collect();
-            temp_sorted_file.write_all(sort_values.as_bytes()).expect("Mergesort section - Can not write to file.");
-            //println!("{:?}", sorted_vals);
+            
+            temp_sorted_file.write_all(sort_values.as_bytes()).expect("Mergesort error.");
         }
         // heapsort
         else if method == "heapsort" {
             let mut values: Vec<i32> = contents.trim().split_whitespace().map(|i| i.parse::<i32>().unwrap()).collect();
             heapsort(&mut values);
-            //println!("{:?}", values);
+            
         }
 
 
         // quicksort
         else if method == "quicksort" {
             let mut values: Vec<i32> = contents.trim().split_whitespace().map(|i| i.parse::<i32>().unwrap()).collect();
-            let mut vals_len = values.len();
-            quick_sort(&mut values, 0, vals_len - 1);
-            //println!("{:?}", values);
+            let vals_len = values.len() - 1;
+            quick_sort(&mut values, 0, vals_len);
+            let sort_values: String = values.into_iter().map(|i| i.to_string() + " ").collect();
+            temp_sorted_file.write_all(sort_values.as_bytes()).expect("Quicksort error.");
         }
 
         // binary tree sort
@@ -92,44 +88,49 @@ pub fn sort(method: &str, file: &str) {
         sorted_file_list.push(values);
     }
 
-    let mut sorted_vals = fs::OpenOptions::new().append(true).create(true).open(&"sorted_vals").expect("Can not open file.");
+    let mut sorted_vals = fs::OpenOptions::new().append(true).create(true).open(&"sorted_vals.txt").expect("Can not open file.");
     let mut merging_array: [Option<i32>; 100] = [Some(0);100];
     let sorted = false;
+
+    for i in 0..merging_array.len() {
+        if merging_array[i] == Some(0) && i < sorted_file_list.len() {
+            merging_array[i] = sorted_file_list[i].pop_front();
+        }
+        else if merging_array[i] == Some(0) && i >= sorted_file_list.len() {
+            merging_array[i] = None;
+        }
+    }
+    let mut write_count = 0;
+    let mut values_line = "".to_owned();
     while sorted == false {
-        for i in 0..merging_array.len() {
-            if merging_array[i] == Some(0) && i < sorted_file_list.len() {
-                merging_array[i] = sorted_file_list[i].pop_front();
+        let mut min_index: isize = -1;
+        for element in 0..merging_array.len() {
+            let curr_element = merging_array[element];
+            if curr_element != None && min_index == -1 {
+                min_index = element as isize;
             }
-            else if merging_array[i] == Some(0) && i >= sorted_file_list.len() {
-                merging_array[i] = None;
+            else if curr_element != None && curr_element < merging_array[min_index as usize] {
+                min_index = element as isize;
             }
         }
-
-    //let min = merging_array.iter().min().unwrap().unwrap();
-    let mut min_index: isize = -1;
-    for element in 0..merging_array.len() {
-        if merging_array[element] != None && min_index == -1 {
-            min_index = element as isize;
+        if min_index == -1 {
+            sorted_vals.write_all(values_line.as_bytes()).expect("Unable to write to sorted file.");
+            break;
         }
-        else if merging_array[element] != None && merging_array[element] < merging_array[min_index as usize] {
-            min_index = element as isize;
+        if write_count < 1000 {
+            write_count += 1;
+            values_line += &merging_array[min_index as usize].unwrap().to_string();
+            values_line += "\n";
         }
-    }
-    if min_index == -1 {
-        break;
+        else{
+            write_count = 0;
+            values_line += &merging_array[min_index as usize].unwrap().to_string();
+            sorted_vals.write_all(values_line.as_bytes()).expect("Unable to write to sorted file.");
+            values_line = "\n".to_owned();
+        }
+        merging_array[min_index as usize] = sorted_file_list[min_index as usize].pop_front();
     }
 
-    
-
-    //let min_index = merging_array.iter().position(|x| x == merging_array.iter().min().unwrap()).unwrap();
-    //println!("{}", min_index);
-    //println!("{:?}", merging_array);
-    //println!("{:?}", merging_array.iter().min().unwrap().unwrap());
-    //if merging_array[min_index] != None {
-    sorted_vals.write_all((merging_array[min_index as usize].unwrap().to_string() + ", ").as_bytes()).expect("None");
-    merging_array[min_index as usize] = sorted_file_list[min_index as usize].pop_front();
-    //}
-    }
 
 
     let elapsed = now.elapsed();
