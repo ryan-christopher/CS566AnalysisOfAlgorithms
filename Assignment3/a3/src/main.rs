@@ -8,7 +8,7 @@ use rand::Rng;
 
 fn main() {
     //stack::stack_tests();
-    external_sort::sort("mergesort", "./rand_nums.txt");
+    external_sort::sort("quicksort", "./rand_nums.txt");
     //let mut file = File::open("./rand_nums.txt");
     // ===== code used to generate large unsorted file =====
     /*
