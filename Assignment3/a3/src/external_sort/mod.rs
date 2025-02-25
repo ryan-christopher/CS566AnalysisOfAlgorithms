@@ -1,3 +1,4 @@
+use std::collections::VecDeque;
 use std::fs;
 use std::fs::read_to_string;
 use std::io::Write;
@@ -10,10 +11,10 @@ pub fn sort(method: &str, file: &str) {
     let now = Instant::now();
     // ===== Go through large file, create smaller ones =====
     /*
-    let temp_dir = fs::create_dir("./temp_sort_files");
+    let temp_unsorted_dir = fs::create_dir("./temp_unsorted_files");
     let mut counter = 0;
     let mut temp_file_number = 1;
-    let mut temp_file_name: String = "./temp_sort_files/temp".to_owned();
+    let mut temp_file_name: String = "./temp_unsorted_files/temp".to_owned();
     temp_file_name.push_str(&temp_file_number.to_string());
     temp_file_name.push_str(".txt");
     let mut temp_file = fs::OpenOptions::new().append(true).create(true).open(&temp_file_name).expect("Can not open file.");
@@ -32,44 +33,97 @@ pub fn sort(method: &str, file: &str) {
     */
     // ======================================================
 
-    // mergesort 
-    if method == "mergesort" {
-        let mut contents = fs::read_to_string("./temp_sort_files/temp0.txt").expect("txt file");
-        println!("{}", contents);
-        let values: Vec<i32> = contents.trim().split_whitespace().map(|i| i.parse::<i32>().unwrap()).collect();
-        println!("{:?}", values);
-        println!("Sorting via mergesort");
-        let sorted_vals: Vec<i32> = merge_sort(&values);
-        println!("{:?}", sorted_vals);
-    }
-    // heapsort
-    if method == "heapsort" {
-        let mut contents = fs::read_to_string("./temp_sort_files/temp0.txt").expect("txt file");
-        println!("{}", contents);
-        let mut values: Vec<i32> = contents.trim().split_whitespace().map(|i| i.parse::<i32>().unwrap()).collect();
-        println!("{:?}", values);
-        println!("Sorting via heapsort");
-        heapsort(&mut values);
-        println!("{:?}", values);
-    }
+    let temp_sorted_dir = fs::create_dir("./temp_sorted_files");
+    // can delete this later, temp file number will still be at 100
+    let temp_file_number = 100;
+    /*
+    let mut temp_sorted_file_number = 1;
+    
+
+    while temp_sorted_file_number <= temp_file_number {
+        // can remove let mut once done, will still be created
+        let mut temp_sorted_file_name: String = "./temp_sorted_files/temp".to_owned();
+        temp_sorted_file_name.push_str(&temp_sorted_file_number.to_string());
+        temp_sorted_file_name.push_str(".txt");
+        let mut temp_unsorted_file_name: String = "./temp_unsorted_files/temp".to_owned();
+        temp_unsorted_file_name.push_str(&temp_sorted_file_number.to_string());
+        temp_unsorted_file_name.push_str(".txt");
+
+        // can remove let mut later
+        let mut temp_sorted_file = fs::OpenOptions::new().append(true).create(true).open(&temp_sorted_file_name).expect("Can not open file.");
+        let contents = fs::read_to_string(&temp_unsorted_file_name).expect("txt file");
+        // mergesort 
+        if method == "mergesort" {
+            let values: Vec<i32> = contents.trim().split_whitespace().map(|i| i.parse::<i32>().unwrap()).collect();
+            //let values = merge_sort(&values).into_iter().map(|i| i.to_string()).collect::<String>();
+            let sort_values: String = merge_sort(&values).into_iter().map(|i| i.to_string() + " ").collect();
+            temp_sorted_file.write_all(sort_values.as_bytes()).expect("Can not write to file.");
+            //println!("{:?}", sorted_vals);
+        }
+        // heapsort
+        else if method == "heapsort" {
+            let mut values: Vec<i32> = contents.trim().split_whitespace().map(|i| i.parse::<i32>().unwrap()).collect();
+            heapsort(&mut values);
+            //println!("{:?}", values);
+        }
 
 
-    // quicksort
-    if method == "quicksort" {
-        let mut contents = fs::read_to_string("./temp_sort_files/temp0.txt").expect("txt file");
-        println!("{}", contents);
-        let mut values: Vec<i32> = contents.trim().split_whitespace().map(|i| i.parse::<i32>().unwrap()).collect();
-        println!("{:?}", values);
-        println!("Sorting via quicksort");
-        let mut vals_len = values.len();
-        quick_sort(&mut values, 0, vals_len - 1);
-        println!("{:?}", values);
-    }
+        // quicksort
+        else if method == "quicksort" {
+            let mut values: Vec<i32> = contents.trim().split_whitespace().map(|i| i.parse::<i32>().unwrap()).collect();
+            let mut vals_len = values.len();
+            quick_sort(&mut values, 0, vals_len - 1);
+            //println!("{:?}", values);
+        }
 
-    // binary tree sort
-    if method == "btree" {
+        // binary tree sort
+        else if method == "btree" {
+            
+        }
+        temp_sorted_file_number += 1;
+}
+        */
+
         
+    let mut sorted_file_list: Vec<VecDeque<i32>> = Vec::new();
+    for i in 1..=temp_file_number{
+        let mut temp_sorted_file_name: String = "./temp_sorted_files/temp".to_owned();
+        temp_sorted_file_name.push_str(&i.to_string());
+        temp_sorted_file_name.push_str(".txt");
+        let contents = fs::read_to_string(&temp_sorted_file_name).expect("txt file");
+        let values: VecDeque<i32> = contents.trim().split_whitespace().map(|i| i.parse::<i32>().unwrap()).collect();
+        sorted_file_list.push(values);
     }
+
+    let mut sorted_vals = fs::OpenOptions::new().append(true).create(true).open(&"sorted_vals").expect("Can not open file.");
+    let mut merging_array: [Option<i32>; 100] = [Some(0);100];
+    let mut sorted = false;
+    while sorted == false {
+        let mut emptied_lists = 0;
+    for i in 0..merging_array.len() {
+        
+        if merging_array[i] == Some(0) {
+            merging_array[i] = sorted_file_list[i].pop_front();
+        }
+        else if merging_array[i] == None {
+            emptied_lists += 1;
+            sorted = true;
+            println!("{:?}", merging_array);
+            break;
+        }
+        if emptied_lists == merging_array.len(){
+            sorted = true;
+            break;
+        }
+    }
+
+    //let min = merging_array.iter().min().unwrap().unwrap();
+    let min_index = merging_array.iter().position(|x| x == merging_array.iter().min().unwrap()).unwrap();
+    //println!("{:?}", merging_array.iter().min().unwrap().unwrap());
+    sorted_vals.write_all((merging_array[min_index].unwrap().to_string() + ", ").as_bytes());
+    merging_array[min_index] = Some(0);
+    }
+
 
     let elapsed = now.elapsed();
     println!("{:?}", elapsed);
@@ -77,49 +131,48 @@ pub fn sort(method: &str, file: &str) {
 }
 
 // ===== Merge Sort =====
-fn merge_sort(vec: &Vec<i32>) -> Vec<i32> {
-    if vec.len() < 2 {
-        vec.to_vec()
+fn merge_sort(nums: &Vec<i32>) -> Vec<i32> {
+    if nums.len() < 2 {
+        nums.to_vec()
     } else {
-        let size = vec.len() / 2;
-        let left = merge_sort(&vec[0..size].to_vec());
-        let right = merge_sort(&vec[size..].to_vec());
-        let merged = merge(&left, &right);
-
+        let size = nums.len() / 2;
+        let left_half = merge_sort(&nums[0..size].to_vec());
+        let right_half = merge_sort(&nums[size..].to_vec());
+        let merged = merge(&left_half, &right_half);
         merged
     }
 }
 
-fn merge(left: &Vec<i32>, right: &Vec<i32>) -> Vec<i32> {
-    let mut i = 0;
-    let mut j = 0;
-    let mut merged: Vec<i32> = Vec::new();
-
-    while i < left.len() && j < right.len() {
-        if left[i] < right[j] {
-            merged.push(left[i]);
-            i = i + 1;
+fn merge(left_half: &Vec<i32>, right_half: &Vec<i32>) -> Vec<i32> {
+    let mut merged_vals: Vec<i32> = Vec::new();
+    let mut x = 0;
+    let mut y = 0;
+    
+    while x < left_half.len() && y < right_half.len() {
+        if left_half[x] < right_half[y] {
+            merged_vals.push(left_half[x]);
+            x = x + 1;
         } else {
-            merged.push(right[j]);
-            j = j + 1;
+            merged_vals.push(right_half[y]);
+            y = y + 1;
         }
     }
 
-    if i < left.len() {
-        while i < left.len() {
-            merged.push(left[i]);
-            i = i + 1;
+    if x < left_half.len() {
+        while x < left_half.len() {
+            merged_vals.push(left_half[x]);
+            x = x + 1;
         }
     }
 
-    if j < right.len() {
-        while j < right.len() {
-            merged.push(right[j]);
-            j = j + 1;
+    if y < right_half.len() {
+        while y < right_half.len() {
+            merged_vals.push(right_half[y]);
+            y = y + 1;
         }
     }
 
-    merged
+    merged_vals
 }
 
 // ===== Heap Sort =====
@@ -162,29 +215,29 @@ where
 }
 
 // ===== Quick Sort =====
-fn quick_sort(slice: &mut [i32], low: usize, high: usize) {
-    if low < high {
-        let pivot = sub_sort(slice, low, high);
+fn quick_sort(nums: &mut [i32], start: usize, end: usize) {
+    if start < end {
+        let pivot = sort_pivot(nums, start, end);
         if pivot > 0 {
-            quick_sort(slice, low, pivot - 1)
+            quick_sort(nums, start, pivot - 1)
         }
-        quick_sort(slice, pivot + 1, high);
+        quick_sort(nums, pivot + 1, end);
     }
 }
 
-pub fn sub_sort(slice: &mut [i32], low: usize, high: usize) -> usize {
-    let pivot = high;
-    let mut i = low as isize - 1;
+fn sort_pivot(nums: &mut [i32], start: usize, end: usize) -> usize {
+    let pivot = end;
+    let mut index = start as isize - 1;
 
-    for j in low..high {
+    for curr_element in start..end {
         // println!("J now is: {}", j);
-        if slice[j] < slice[pivot] {
-            i += 1;
-            slice.swap(i as usize, j);
+        if nums[curr_element] < nums[pivot] {
+            index += 1;
+            nums.swap(index as usize, curr_element);
         }
     }
-    slice.swap((i + 1) as usize, pivot);
-    (i + 1) as usize
+    nums.swap((index + 1) as usize, pivot);
+    (index + 1) as usize
 }
 
 // ===== Binary Tree Sort =====

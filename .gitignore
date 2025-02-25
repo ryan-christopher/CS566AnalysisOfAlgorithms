@@ -1,3 +1,5 @@
 **/target/
-**/temp_sort_files/
+**/temp_unsorted_files/
+**/temp_sorted_files/
 **/rand_nums.txt
+**/sorted_vals.txt
