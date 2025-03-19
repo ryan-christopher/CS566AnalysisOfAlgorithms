@@ -1,0 +1,27 @@
+
+
+// initialize index values for each color
+red_index    = 0
+blue_index   = 0
+yellow_index = 0
+
+// iterate through the n pairs, use x as current index
+for x in range(0, pairs):
+    curr_index = x
+    curr_color = pairs[x][color]
+
+    // check that curr_color follows order of red -> blue -> yellow
+    if curr_color == red and (curr_index > blue_index or curr_index > yellow_index):
+        pop current pair
+        shift all elements starting at blue_index to the right
+        set red_index = blue_index and blue_index = curr_index
+        if yellow_index == red_index:
+            yellow_index = blue_index
+        insert current pair to position blue_index - 1
+
+    elif curr_color == blue and (curr_index > yellow_index):
+        pop current pair
+        shift all elements starting at yellow_index to the right, increment yellow_index
+        insert current pair to position yellow_index - 1
+
+    
