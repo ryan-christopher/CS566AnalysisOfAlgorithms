@@ -1,0 +1,800 @@
+If you want to achieve greatness stop asking for permission. ~Anonymous
+Key generation time - 2.2915ms
+Encapsulation time - 2.0103ms
+Decapsulation time - 2.4412ms
+Key and cipher generation time - 22.6µs
+Encryption time - 31.5µs
+Decryption time - 17.5µs
+Total time - 6.827ms
+Things work out best for those who make the best of how things work out. ~John Wooden
+Key generation time - 1.9025ms
+Encapsulation time - 1.9431ms
+Decapsulation time - 2.407ms
+Key and cipher generation time - 5.3µs
+Encryption time - 22.6µs
+Decryption time - 14.7µs
+Total time - 6.3054ms
+To live a creative life, we must lose our fear of being wrong. ~Anonymous
+Key generation time - 2.0485ms
+Encapsulation time - 1.9696ms
+Decapsulation time - 2.4147ms
+Key and cipher generation time - 4.4µs
+Encryption time - 23.8µs
+Decryption time - 14.3µs
+Total time - 6.4832ms
+If you are not willing to risk the usual you will have to settle for the ordinary. ~Jim Rohn
+Key generation time - 1.901ms
+Encapsulation time - 1.9283ms
+Decapsulation time - 2.4168ms
+Key and cipher generation time - 4.5µs
+Encryption time - 20.6µs
+Decryption time - 15.1µs
+Total time - 6.2946ms
+Trust because you are willing to accept the risk, not because it's safe or certain. ~Anonymous
+Key generation time - 1.861ms
+Encapsulation time - 1.9438ms
+Decapsulation time - 2.4248ms
+Key and cipher generation time - 4.1µs
+Encryption time - 20.8µs
+Decryption time - 13.9µs
+Total time - 6.2781ms
+Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. ~Swami Vivekananda
+Key generation time - 1.8897ms
+Encapsulation time - 1.9199ms
+Decapsulation time - 2.4211ms
+Key and cipher generation time - 4.4µs
+Encryption time - 19.2µs
+Decryption time - 16.9µs
+Total time - 6.2777ms
+All our dreams can come true if we have the courage to pursue them. ~Walt Disney
+Key generation time - 1.8555ms
+Encapsulation time - 1.899ms
+Decapsulation time - 2.3949ms
+Key and cipher generation time - 3.1µs
+Encryption time - 14.6µs
+Decryption time - 11.4µs
+Total time - 6.1831ms
+Good things come to people who wait, but better things come to those who go out and get them. ~Anonymous
+Key generation time - 2ms
+Encapsulation time - 1.9847ms
+Decapsulation time - 2.463ms
+Key and cipher generation time - 4.6µs
+Encryption time - 26.4µs
+Decryption time - 15.1µs
+Total time - 6.5027ms
+If you do what you always did, you will get what you always got. ~Anonymous
+Key generation time - 1.9079ms
+Encapsulation time - 1.8841ms
+Decapsulation time - 2.464ms
+Key and cipher generation time - 4.3µs
+Encryption time - 19.7µs
+Decryption time - 12.5µs
+Total time - 6.3009ms
+Success is walking from failure to failure with no loss of enthusiasm. ~Winston Churchill
+Key generation time - 1.9051ms
+Encapsulation time - 2.0274ms
+Decapsulation time - 2.4499ms
+Key and cipher generation time - 4.2µs
+Encryption time - 21.1µs
+Decryption time - 13.8µs
+Total time - 6.43ms
+Just when the caterpillar thought the world was ending, he turned into a butterfly. ~Proverb
+Key generation time - 1.8815ms
+Encapsulation time - 1.9498ms
+Decapsulation time - 2.4789ms
+Key and cipher generation time - 3.9µs
+Encryption time - 18.6µs
+Decryption time - 13.5µs
+Total time - 6.3526ms
+Successful entrepreneurs are givers and not takers of positive energy. ~Anonymous
+Key generation time - 1.9548ms
+Encapsulation time - 1.9562ms
+Decapsulation time - 2.5576ms
+Key and cipher generation time - 4.3µs
+Encryption time - 18.8µs
+Decryption time - 13.4µs
+Total time - 6.5139ms
+Whenever you see a successful person you only see the public glories, never the private sacrifices to reach them. ~Vaibhav Shah
+Key generation time - 1.8866ms
+Encapsulation time - 1.9233ms
+Decapsulation time - 2.4072ms
+Key and cipher generation time - 3.2µs
+Encryption time - 19.3µs
+Decryption time - 15.7µs
+Total time - 6.2603ms
+Opportunities don't happen, you create them. ~Chris Grosser
+Key generation time - 1.8912ms
+Encapsulation time - 1.9162ms
+Decapsulation time - 2.404ms
+Key and cipher generation time - 3µs
+Encryption time - 17.4µs
+Decryption time - 10.5µs
+Total time - 6.2471ms
+Try not to become a person of success, but rather try to become a person of value. ~Albert Einstein
+Key generation time - 2.0947ms
+Encapsulation time - 1.9779ms
+Decapsulation time - 2.4512ms
+Key and cipher generation time - 4.5µs
+Encryption time - 22.5µs
+Decryption time - 16.3µs
+Total time - 6.5741ms
+Great minds discuss ideas; average minds discuss events; small minds discuss people. ~Eleanor Roosevelt
+Key generation time - 1.8704ms
+Encapsulation time - 1.8852ms
+Decapsulation time - 2.393ms
+Key and cipher generation time - 3.5µs
+Encryption time - 19.6µs
+Decryption time - 15µs
+Total time - 6.1928ms
+I have not failed. I've just found 10,000 ways that won't work. ~Thomas A. Edison
+Key generation time - 1.9472ms
+Encapsulation time - 2.1315ms
+Decapsulation time - 2.5002ms
+Key and cipher generation time - 6µs
+Encryption time - 22.1µs
+Decryption time - 14µs
+Total time - 6.6291ms
+If you don't value your time, neither will others. Stop giving away your time and talents- start charging for it. ~Kim Garst
+Key generation time - 1.8716ms
+Encapsulation time - 1.9856ms
+Decapsulation time - 2.4911ms
+Key and cipher generation time - 5.5µs
+Encryption time - 23.5µs
+Decryption time - 17.1µs
+Total time - 6.406ms
+A successful man is one who can lay a firm foundation with the bricks others have thrown at him. ~David Brinkley
+Key generation time - 1.8543ms
+Encapsulation time - 2.0395ms
+Decapsulation time - 2.4027ms
+Key and cipher generation time - 5.1µs
+Encryption time - 19.2µs
+Decryption time - 13.6µs
+Total time - 6.3427ms
+No one can make you feel inferior without your consent. ~Eleanor Roosevelt
+Key generation time - 1.9284ms
+Encapsulation time - 2.0294ms
+Decapsulation time - 2.4687ms
+Key and cipher generation time - 4.3µs
+Encryption time - 17.8µs
+Decryption time - 12µs
+Total time - 6.4689ms
+The whole secret of a successful life is to find out what is one's destiny to do, and then do it. ~Henry Ford
+Key generation time - 1.8182ms
+Encapsulation time - 1.8486ms
+Decapsulation time - 2.4538ms
+Key and cipher generation time - 4µs
+Encryption time - 20.1µs
+Decryption time - 14.4µs
+Total time - 6.1669ms
+If you're going through hell keep going. ~Winston Churchill
+Key generation time - 1.86ms
+Encapsulation time - 1.87ms
+Decapsulation time - 2.3574ms
+Key and cipher generation time - 3.6µs
+Encryption time - 14.3µs
+Decryption time - 10.5µs
+Total time - 6.1216ms
+The ones who are crazy enough to think they can change the world, are the ones that do. ~Anonymous
+Key generation time - 1.8994ms
+Encapsulation time - 1.93ms
+Decapsulation time - 2.4774ms
+Key and cipher generation time - 4.4µs
+Encryption time - 20.5µs
+Decryption time - 14.3µs
+Total time - 6.3531ms
+Don't raise your voice, improve your argument. ~Anonymous
+Key generation time - 1.8897ms
+Encapsulation time - 1.9382ms
+Decapsulation time - 2.5266ms
+Key and cipher generation time - 3.9µs
+Encryption time - 16µs
+Decryption time - 10.9µs
+Total time - 6.3937ms
+What seems to us as bitter trials are often blessings in disguise.~ Oscar Wilde
+Key generation time - 1.9161ms
+Encapsulation time - 1.904ms
+Decapsulation time - 2.4235ms
+Key and cipher generation time - 3.8µs
+Encryption time - 22.5µs
+Decryption time - 33.9µs
+Total time - 6.3134ms
+The meaning of life is to find your gift. The purpose of life is to give it away. ~Anonymous
+Key generation time - 1.938ms
+Encapsulation time - 1.9025ms
+Decapsulation time - 2.6354ms
+Key and cipher generation time - 4µs
+Encryption time - 18.7µs
+Decryption time - 13.8µs
+Total time - 6.5213ms
+The distance between insanity and genius is measured only by success. ~Bruce Feirstein
+Key generation time - 1.8893ms
+Encapsulation time - 2.0035ms
+Decapsulation time - 2.3971ms
+Key and cipher generation time - 4.2µs
+Encryption time - 19.4µs
+Decryption time - 13.5µs
+Total time - 6.3359ms
+When you stop chasing the wrong things you give the right things a chance to catch you. ~Lolly Daskal
+Key generation time - 1.8979ms
+Encapsulation time - 1.8895ms
+Decapsulation time - 2.3466ms
+Key and cipher generation time - 3.6µs
+Encryption time - 19.1µs
+Decryption time - 14.3µs
+Total time - 6.1792ms
+Don't be afraid to give up the good to go for the great. ~John D. Rockefeller
+Key generation time - 1.9208ms
+Encapsulation time - 1.8971ms
+Decapsulation time - 2.3587ms
+Key and cipher generation time - 3.7µs
+Encryption time - 30µs
+Decryption time - 12.5µs
+Total time - 6.2302ms
+No masterpiece was ever created by a lazy artist.~ Anonymous
+Key generation time - 1.9143ms
+Encapsulation time - 1.9532ms
+Decapsulation time - 2.4117ms
+Key and cipher generation time - 4.4µs
+Encryption time - 16.2µs
+Decryption time - 10.9µs
+Total time - 6.3186ms
+Happiness is a butterfly, which when pursued, is always beyond your grasp, but which, if you will sit down quietly, may alight upon you. ~Nathaniel Hawthorne
+Key generation time - 1.867ms
+Encapsulation time - 1.9182ms
+Decapsulation time - 2.5052ms
+Key and cipher generation time - 4.5µs
+Encryption time - 30µs
+Decryption time - 22.9µs
+Total time - 6.3579ms
+If you can't explain it simply, you don't understand it well enough. ~Albert Einstein
+Key generation time - 1.896ms
+Encapsulation time - 1.9311ms
+Decapsulation time - 2.4298ms
+Key and cipher generation time - 5.2µs
+Encryption time - 21µs
+Decryption time - 13.9µs
+Total time - 6.3074ms
+Blessed are those who can give without remembering and take without forgetting. ~Anonymous
+Key generation time - 1.9441ms
+Encapsulation time - 1.9722ms
+Decapsulation time - 2.4495ms
+Key and cipher generation time - 4.3µs
+Encryption time - 21.5µs
+Decryption time - 15.9µs
+Total time - 6.4196ms
+Do one thing every day that scares you. ~Anonymous
+Key generation time - 1.9261ms
+Encapsulation time - 1.9483ms
+Decapsulation time - 2.4542ms
+Key and cipher generation time - 4.2µs
+Encryption time - 18.6µs
+Decryption time - 12.8µs
+Total time - 6.3718ms
+What's the point of being alive if you don't at least try to do something remarkable. ~Anonymous
+Key generation time - 1.9293ms
+Encapsulation time - 1.9719ms
+Decapsulation time - 2.4555ms
+Key and cipher generation time - 3.6µs
+Encryption time - 17.1µs
+Decryption time - 12.6µs
+Total time - 6.3971ms
+Life is not about finding yourself. Life is about creating yourself. ~Lolly Daskal
+Key generation time - 1.8955ms
+Encapsulation time - 1.9298ms
+Decapsulation time - 2.5619ms
+Key and cipher generation time - 4.4µs
+Encryption time - 19.3µs
+Decryption time - 14µs
+Total time - 6.4319ms
+Nothing in the world is more common than unsuccessful people with talent. ~Anonymous
+Key generation time - 1.897ms
+Encapsulation time - 1.91ms
+Decapsulation time - 2.4874ms
+Key and cipher generation time - 5µs
+Encryption time - 19.7µs
+Decryption time - 13.9µs
+Total time - 6.3416ms
+Knowledge is being aware of what you can do. Wisdom is knowing when not to do it. ~Anonymous
+Key generation time - 1.9412ms
+Encapsulation time - 1.9662ms
+Decapsulation time - 2.5564ms
+Key and cipher generation time - 4.6µs
+Encryption time - 23.5µs
+Decryption time - 17µs
+Total time - 6.5168ms
+Your problem isn't the problem. Your reaction is the problem. ~Anonymous
+Key generation time - 1.8849ms
+Encapsulation time - 1.9533ms
+Decapsulation time - 2.4637ms
+Key and cipher generation time - 4µs
+Encryption time - 18.7µs
+Decryption time - 13.6µs
+Total time - 6.3449ms
+You can do anything, but not everything. ~Anonymous
+Key generation time - 1.8589ms
+Encapsulation time - 1.8864ms
+Decapsulation time - 2.3823ms
+Key and cipher generation time - 3.5µs
+Encryption time - 15.4µs
+Decryption time - 11µs
+Total time - 6.1638ms
+Innovation distinguishes between a leader and a follower. ~Steve Jobs
+Key generation time - 1.8741ms
+Encapsulation time - 1.8809ms
+Decapsulation time - 2.3684ms
+Key and cipher generation time - 3.9µs
+Encryption time - 17.1µs
+Decryption time - 12.5µs
+Total time - 6.1633ms
+There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed. ~Ray Goforth
+Key generation time - 1.8941ms
+Encapsulation time - 1.9243ms
+Decapsulation time - 2.4929ms
+Key and cipher generation time - 4µs
+Encryption time - 31.2µs
+Decryption time - 34.2µs
+Total time - 6.389ms
+Thinking should become your capital asset, no matter whatever ups and downs you come across in your life. ~Dr. APJ Kalam
+Key generation time - 1.8974ms
+Encapsulation time - 1.9602ms
+Decapsulation time - 2.5083ms
+Key and cipher generation time - 4.2µs
+Encryption time - 22.5µs
+Decryption time - 17.1µs
+Total time - 6.4174ms
+I find that the harder I work, the more luck I seem to have. ~Thomas Jefferson
+Key generation time - 1.8986ms
+Encapsulation time - 1.9654ms
+Decapsulation time - 2.4698ms
+Key and cipher generation time - 4.3µs
+Encryption time - 17.8µs
+Decryption time - 12.3µs
+Total time - 6.3762ms
+The starting point of all achievement is desire. ~Napolean Hill
+Key generation time - 1.9169ms
+Encapsulation time - 1.9978ms
+Decapsulation time - 2.5046ms
+Key and cipher generation time - 4.3µs
+Encryption time - 16µs
+Decryption time - 11µs
+Total time - 6.4595ms
+Success is the sum of small efforts, repeated day-in and day-out. ~Robert Collier
+Key generation time - 1.9195ms
+Encapsulation time - 1.9475ms
+Decapsulation time - 2.7664ms
+Key and cipher generation time - 4.7µs
+Encryption time - 26.3µs
+Decryption time - 14.7µs
+Total time - 6.687ms
+If you want to achieve excellence, you can get there today. As of this second, quit doing less-than-excellent work. ~Thomas J. Watson
+Key generation time - 1.9279ms
+Encapsulation time - 1.9451ms
+Decapsulation time - 2.4689ms
+Key and cipher generation time - 4.7µs
+Encryption time - 31.2µs
+Decryption time - 25µs
+Total time - 6.4092ms
+All progress takes place outside the comfort zone. ~Michael John Bobak
+Key generation time - 1.8998ms
+Encapsulation time - 1.935ms
+Decapsulation time - 2.473ms
+Key and cipher generation time - 3.8µs
+Encryption time - 17.4µs
+Decryption time - 12.4µs
+Total time - 6.3483ms
+You may only succeed if you desire succeeding; you may only fail if you do not mind failing. ~Philippos
+Key generation time - 2.0044ms
+Encapsulation time - 2.0099ms
+Decapsulation time - 2.5193ms
+Key and cipher generation time - 4µs
+Encryption time - 22.1µs
+Decryption time - 14.5µs
+Total time - 6.5841ms
+Courage is resistance to fear, mastery of fear - not absense of fear. ~Mark Twain
+Key generation time - 1.9434ms
+Encapsulation time - 1.9351ms
+Decapsulation time - 2.4374ms
+Key and cipher generation time - 3.8µs
+Encryption time - 19.2µs
+Decryption time - 14.1µs
+Total time - 6.3611ms
+Only put off until tomorrow what you are willing to die having left undone. ~Pablo Picasso
+Key generation time - 1.8423ms
+Encapsulation time - 1.913ms
+Decapsulation time - 2.6269ms
+Key and cipher generation time - 4.1µs
+Encryption time - 19.2µs
+Decryption time - 14.2µs
+Total time - 6.4265ms
+People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily. ~Zig Ziglar
+Key generation time - 1.9156ms
+Encapsulation time - 1.9557ms
+Decapsulation time - 2.4346ms
+Key and cipher generation time - 3.3µs
+Encryption time - 18.9µs
+Decryption time - 19.8µs
+Total time - 6.3524ms
+We become what we think about most of the time, and that's the strangest secret. ~Earl Nightingale
+Key generation time - 1.8916ms
+Encapsulation time - 1.927ms
+Decapsulation time - 2.4035ms
+Key and cipher generation time - 3.5µs
+Encryption time - 18.6µs
+Decryption time - 14.3µs
+Total time - 6.2656ms
+The only place where success comes before work is in the dictionary. ~Vidal Sassoon
+Key generation time - 2ms
+Encapsulation time - 1.9002ms
+Decapsulation time - 2.3942ms
+Key and cipher generation time - 3.7µs
+Encryption time - 18.7µs
+Decryption time - 13.4µs
+Total time - 6.337ms
+The best reason to start an organization is to make meaning; to create a product or service to make the world a better place. ~Guy Kawasaki
+Key generation time - 1.9267ms
+Encapsulation time - 1.9121ms
+Decapsulation time - 2.6287ms
+Key and cipher generation time - 5.5µs
+Encryption time - 32.8µs
+Decryption time - 22.4µs
+Total time - 6.539ms
+I find that when you have a real interest in life and a curious life, that sleep is not the most important thing. ~Martha Stewart
+Key generation time - 1.971ms
+Encapsulation time - 1.9362ms
+Decapsulation time - 2.4001ms
+Key and cipher generation time - 3.9µs
+Encryption time - 30.7µs
+Decryption time - 24.2µs
+Total time - 6.3748ms
+It's not what you look at that matters, it's what you see. ~Anonymous
+Key generation time - 1.9675ms
+Encapsulation time - 2.2115ms
+Decapsulation time - 2.4717ms
+Key and cipher generation time - 4.9µs
+Encryption time - 19.3µs
+Decryption time - 13.1µs
+Total time - 6.6974ms
+The road to success and the road to failure are almost exactly the same. ~Colin R. Davis
+Key generation time - 1.8651ms
+Encapsulation time - 2.0359ms
+Decapsulation time - 2.4062ms
+Key and cipher generation time - 3.7µs
+Encryption time - 19.2µs
+Decryption time - 13.7µs
+Total time - 6.352ms
+The function of leadership is to produce more leaders, not more followers. ~Ralph Nader
+Key generation time - 1.9619ms
+Encapsulation time - 2.1129ms
+Decapsulation time - 2.5126ms
+Key and cipher generation time - 5.8µs
+Encryption time - 22.2µs
+Decryption time - 14.2µs
+Total time - 6.6385ms
+Success is liking yourself, liking what you do, and liking how you do it. ~Maya Angelou
+Key generation time - 1.8781ms
+Encapsulation time - 2.1363ms
+Decapsulation time - 2.4305ms
+Key and cipher generation time - 4µs
+Encryption time - 19.3µs
+Decryption time - 13.6µs
+Total time - 6.4896ms
+As we look ahead into the next century, leaders will be those who empower others. ~Bill Gates
+Key generation time - 1.9216ms
+Encapsulation time - 2.0472ms
+Decapsulation time - 2.4149ms
+Key and cipher generation time - 4.6µs
+Encryption time - 20.9µs
+Decryption time - 15.1µs
+Total time - 6.4341ms
+A real entrepreneur is somebody who has no safety net underneath them. ~Henry Kravis
+Key generation time - 2.0965ms
+Encapsulation time - 1.9415ms
+Decapsulation time - 2.4109ms
+Key and cipher generation time - 4.3µs
+Encryption time - 20.6µs
+Decryption time - 15µs
+Total time - 6.4992ms
+The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself. ~Mark Caine
+Key generation time - 1.9415ms
+Encapsulation time - 1.952ms
+Decapsulation time - 2.546ms
+Key and cipher generation time - 5.3µs
+Encryption time - 30.1µs
+Decryption time - 22µs
+Total time - 6.5075ms
+People who succeed have momentum. The more they succeed, the more they want to succeed, and the more they find a way to succeed. ~Tony Robbins
+Key generation time - 2.0103ms
+Encapsulation time - 1.9814ms
+Decapsulation time - 2.7612ms
+Key and cipher generation time - 5.6µs
+Encryption time - 30.8µs
+Decryption time - 22.1µs
+Total time - 6.8218ms
+When I dare to be powerful - to use my strength in the service of my vision, then it becomes less and less important whether I am afraid. ~Audre Lorde
+Key generation time - 1.9347ms
+Encapsulation time - 1.9616ms
+Decapsulation time - 2.5122ms
+Key and cipher generation time - 5.9µs
+Encryption time - 32.2µs
+Decryption time - 26.4µs
+Total time - 6.4828ms
+Whenever you find yourself on the side of the majority, it is time to pause and reflect. ~Mark Twain
+Key generation time - 1.939ms
+Encapsulation time - 1.9238ms
+Decapsulation time - 2.4595ms
+Key and cipher generation time - 4.9µs
+Encryption time - 21.1µs
+Decryption time - 15.2µs
+Total time - 6.373ms
+The successful warrior is the average man, with laser-like focus. ~Bruce Lee
+Key generation time - 1.9915ms
+Encapsulation time - 1.9649ms
+Decapsulation time - 2.4857ms
+Key and cipher generation time - 4.6µs
+Encryption time - 19.4µs
+Decryption time - 12.9µs
+Total time - 6.4884ms
+Take up one idea. Make that one idea your life -- think of it, dream of it, live on that idea. ~Swami Vivekananda
+Key generation time - 1.9879ms
+Encapsulation time - 1.9122ms
+Decapsulation time - 2.3797ms
+Key and cipher generation time - 4.4µs
+Encryption time - 21.8µs
+Decryption time - 16.7µs
+Total time - 6.3299ms
+Develop success from failures. Discouragement and failure are two of the surest stepping stones to success. ~Dale Carnegie
+Key generation time - 1.9601ms
+Encapsulation time - 1.9994ms
+Decapsulation time - 2.4746ms
+Key and cipher generation time - 3.9µs
+Encryption time - 21.9µs
+Decryption time - 16.3µs
+Total time - 6.4828ms
+If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much. ~ Jim Rohn
+Key generation time - 1.869ms
+Encapsulation time - 1.9358ms
+Decapsulation time - 2.4067ms
+Key and cipher generation time - 3.7µs
+Encryption time - 28.8µs
+Decryption time - 22.5µs
+Total time - 6.2755ms
+If you genuinely want something, don't wait for it -- teach yourself to be impatient. ~Gurbaksh Chahal
+Key generation time - 1.8816ms
+Encapsulation time - 1.9029ms
+Decapsulation time - 2.4007ms
+Key and cipher generation time - 4.1µs
+Encryption time - 21.5µs
+Decryption time - 16.1µs
+Total time - 6.2341ms
+Don't let the fear of losing be greater than the excitement of winning. ~Robert Kiyosaki
+Key generation time - 1.9086ms
+Encapsulation time - 1.9523ms
+Decapsulation time - 2.4148ms
+Key and cipher generation time - 4.5µs
+Encryption time - 19.9µs
+Decryption time - 13.7µs
+Total time - 6.3209ms
+If you want to make a permanent change, stop focusing on the size of your problems and start focusing on the size of you! ~T. Harv Eker
+Key generation time - 1.9845ms
+Encapsulation time - 1.9446ms
+Decapsulation time - 2.417ms
+Key and cipher generation time - 4.7µs
+Encryption time - 28.9µs
+Decryption time - 22.3µs
+Total time - 6.4095ms
+You can't connect the dots looking forward; you can only connect them looking backwards. ~Steve Jobs
+Key generation time - 1.9311ms
+Encapsulation time - 1.9665ms
+Decapsulation time - 2.455ms
+Key and cipher generation time - 4.5µs
+Encryption time - 20.8µs
+Decryption time - 15µs
+Total time - 6.3999ms
+Successful people do what unsuccessful people are not willing to do. Don't wish it were easier, wish you were better. ~Jim Rohn
+Key generation time - 1.9047ms
+Encapsulation time - 2.0255ms
+Decapsulation time - 2.5492ms
+Key and cipher generation time - 4.1µs
+Encryption time - 23.1µs
+Decryption time - 17.7µs
+Total time - 6.5336ms
+The number one reason people fail in life is because they listen to their friends, family, and neighbors. ~Napoleon Hill
+Key generation time - 1.915ms
+Encapsulation time - 1.9855ms
+Decapsulation time - 2.4463ms
+Key and cipher generation time - 4.7µs
+Encryption time - 23.5µs
+Decryption time - 17.2µs
+Total time - 6.4006ms
+The reason most people never reach their goals is that they don't define them, or ever seriously consider them as believable or achievable. ~Denis Watiley
+Key generation time - 1.9353ms
+Encapsulation time - 2.0034ms
+Decapsulation time - 2.5566ms
+Key and cipher generation time - 4.2µs
+Encryption time - 42.3µs
+Decryption time - 24.2µs
+Total time - 6.5769ms
+In my experience, there is only one motivation, and that is desire. No reasons or principle contain it or stand against it. ~Jane Smiley
+Key generation time - 1.9192ms
+Encapsulation time - 1.9087ms
+Decapsulation time - 2.3962ms
+Key and cipher generation time - 4.7µs
+Encryption time - 27.6µs
+Decryption time - 30µs
+Total time - 6.2947ms
+Success does not consist in never making mistakes but in never making the same one a second time. ~George Bernard Shaw
+Key generation time - 1.9215ms
+Encapsulation time - 1.9645ms
+Decapsulation time - 2.4212ms
+Key and cipher generation time - 4.6µs
+Encryption time - 21.9µs
+Decryption time - 19.7µs
+Total time - 6.3614ms
+I don't want to get to the end of my life and find that I lived just the length of it. I want to have lived the width of it as well. ~Diane Ackerman
+Key generation time - 1.8891ms
+Encapsulation time - 1.9429ms
+Decapsulation time - 2.4365ms
+Key and cipher generation time - 4.3µs
+Encryption time - 30.3µs
+Decryption time - 23.7µs
+Total time - 6.3355ms
+You must expect great things of yourself before you can do them. ~Michael Jordan
+Key generation time - 1.9952ms
+Encapsulation time - 2.0169ms
+Decapsulation time - 2.4969ms
+Key and cipher generation time - 4.4µs
+Encryption time - 16.8µs
+Decryption time - 14.4µs
+Total time - 6.5518ms
+Motivation is what gets you started. Habit is what keeps you going. ~Jim Ryun
+Key generation time - 2.0568ms
+Encapsulation time - 1.993ms
+Decapsulation time - 2.5451ms
+Key and cipher generation time - 5µs
+Encryption time - 18.9µs
+Decryption time - 12.9µs
+Total time - 6.6406ms
+People rarely succeed unless they have fun in what they are doing. ~Dale Carnegie
+Key generation time - 1.9029ms
+Encapsulation time - 1.9244ms
+Decapsulation time - 2.4799ms
+Key and cipher generation time - 4µs
+Encryption time - 18.5µs
+Decryption time - 13.6µs
+Total time - 6.3518ms
+There is no chance, no destiny, no fate, that can hinder or control the firm resolve of a determined soul. ~Ella Wheeler Wilcox
+Key generation time - 1.9863ms
+Encapsulation time - 2.0172ms
+Decapsulation time - 2.7915ms
+Key and cipher generation time - 4.7µs
+Encryption time - 22.3µs
+Decryption time - 15.9µs
+Total time - 6.8468ms
+Our greatest fear should not be of failure but of succeeding at things in life that don't really matter. ~Francis Chan
+Key generation time - 2.1418ms
+Encapsulation time - 1.9735ms
+Decapsulation time - 2.457ms
+Key and cipher generation time - 5.6µs
+Encryption time - 23.8µs
+Decryption time - 16.4µs
+Total time - 6.6289ms
+You've got to get up every morning with determination if you're going to go to bed with satisfaction. ~George Lorimer
+Key generation time - 1.9487ms
+Encapsulation time - 1.9382ms
+Decapsulation time - 2.8317ms
+Key and cipher generation time - 5.4µs
+Encryption time - 31.9µs
+Decryption time - 16.2µs
+Total time - 6.7818ms
+To be successful you must accept all challenges that come your way. You can't just accept the ones you like. ~Mike Gafka
+Key generation time - 1.8898ms
+Encapsulation time - 1.9667ms
+Decapsulation time - 2.4217ms
+Key and cipher generation time - 3.8µs
+Encryption time - 20.8µs
+Decryption time - 16µs
+Total time - 6.3268ms
+Success is...knowing your purpose in life, growing to reach your maximum potential, and sowing seeds that benefit others. ~ John C. Maxwell
+Key generation time - 1.9129ms
+Encapsulation time - 1.9761ms
+Decapsulation time - 2.4059ms
+Key and cipher generation time - 5µs
+Encryption time - 29µs
+Decryption time - 21.6µs
+Total time - 6.3589ms
+Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice. ~Wayne Dyer
+Key generation time - 1.9986ms
+Encapsulation time - 1.9663ms
+Decapsulation time - 2.4981ms
+Key and cipher generation time - 4.7µs
+Encryption time - 20.4µs
+Decryption time - 14.6µs
+Total time - 6.5128ms
+To accomplish great things, we must not only act, but also dream, not only plan, but also believe.~ Anatole France
+Key generation time - 1.9677ms
+Encapsulation time - 2.0498ms
+Decapsulation time - 2.4534ms
+Key and cipher generation time - 4.7µs
+Encryption time - 22.3µs
+Decryption time - 15.8µs
+Total time - 6.5234ms
+Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no help at all. ~Dale Carnegie
+Key generation time - 1.9065ms
+Encapsulation time - 1.9446ms
+Decapsulation time - 2.7155ms
+Key and cipher generation time - 8.8µs
+Encryption time - 30.3µs
+Decryption time - 23.1µs
+Total time - 6.6388ms
+You measure the size of the accomplishment by the obstacles you had to overcome to reach your goals. ~Booker T. Washington
+Key generation time - 1.919ms
+Encapsulation time - 1.9244ms
+Decapsulation time - 2.5958ms
+Key and cipher generation time - 4.6µs
+Encryption time - 23.6µs
+Decryption time - 16.7µs
+Total time - 6.4932ms
+Real difficulties can be overcome; it is only the imaginary ones that are unconquerable. ~Theodore N. Vail
+Key generation time - 1.8668ms
+Encapsulation time - 1.937ms
+Decapsulation time - 2.4651ms
+Key and cipher generation time - 4.6µs
+Encryption time - 21.7µs
+Decryption time - 24.6µs
+Total time - 6.3325ms
+It is better to fail in originality than to succeed in imitation. ~Herman Melville
+Key generation time - 2.0074ms
+Encapsulation time - 2.0164ms
+Decapsulation time - 2.5758ms
+Key and cipher generation time - 4.5µs
+Encryption time - 20.8µs
+Decryption time - 14µs
+Total time - 6.6477ms
+Fortune sides with him who dares. ~Virgil
+Key generation time - 2.0538ms
+Encapsulation time - 1.9919ms
+Decapsulation time - 2.5683ms
+Key and cipher generation time - 4.7µs
+Encryption time - 18.9µs
+Decryption time - 10.9µs
+Total time - 6.6582ms
+Little minds are tamed and subdued by misfortune; but great minds rise above it. ~Washington Irving
+Key generation time - 2.1666ms
+Encapsulation time - 2.0102ms
+Decapsulation time - 2.6142ms
+Key and cipher generation time - 4.9µs
+Encryption time - 21.8µs
+Decryption time - 14.8µs
+Total time - 6.8418ms
+Failure is the condiment that gives success its flavor. ~Truman Capote
+Key generation time - 1.9805ms
+Encapsulation time - 1.9771ms
+Decapsulation time - 2.5878ms
+Key and cipher generation time - 4.1µs
+Encryption time - 17.5µs
+Decryption time - 12µs
+Total time - 6.5882ms
+Don't let what you cannot do interfere with what you can do. ~John R. Wooden
+Key generation time - 1.9629ms
+Encapsulation time - 1.9398ms
+Decapsulation time - 2.5004ms
+Key and cipher generation time - 5.6µs
+Encryption time - 20.6µs
+Decryption time - 12.3µs
+Total time - 6.4502ms
+You may have to fight a battle more than once to win it. ~Margaret Thatcher
+Key generation time - 1.9315ms
+Encapsulation time - 1.9445ms
+Decapsulation time - 2.4468ms
+Key and cipher generation time - 3.8µs
+Encryption time - 18.6µs
+Decryption time - 12.9µs
+Total time - 6.365ms
+Do or do not, there is no try. ~Yoda
+Key generation time - 2.0502ms
+Encapsulation time - 1.9717ms
+Decapsulation time - 2.6119ms
+Key and cipher generation time - 4.9µs
+Encryption time - 15.3µs
+Decryption time - 9.9µs
+Total time - 6.6716ms

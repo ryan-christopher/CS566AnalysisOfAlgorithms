@@ -1,0 +1,11 @@
+[package]
+name = "project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes-gcm = "0.10.3"
+ml-kem = "0.2.1"
+pqc_kyber = { version = "0.7.1", features = ["std"] }
+rand = "=0.8.5"
+rsa = "0.9.8"

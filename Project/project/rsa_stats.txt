@@ -1,0 +1,500 @@
+If you want to achieve greatness stop asking for permission. ~Anonymous
+Key generation time - 3.330196s
+Encryption time - 2.6472ms
+Decryption time - 21.5721ms
+Total time - 3.3544278s
+Things work out best for those who make the best of how things work out. ~John Wooden
+Key generation time - 3.9448125s
+Encryption time - 2.2734ms
+Decryption time - 21.4396ms
+Total time - 3.9685353s
+To live a creative life, we must lose our fear of being wrong. ~Anonymous
+Key generation time - 1.6714073s
+Encryption time - 2.2117ms
+Decryption time - 21.994ms
+Total time - 1.6956206s
+If you are not willing to risk the usual you will have to settle for the ordinary. ~Jim Rohn
+Key generation time - 2.4325207s
+Encryption time - 2.2599ms
+Decryption time - 21.42ms
+Total time - 2.456208s
+Trust because you are willing to accept the risk, not because it's safe or certain. ~Anonymous
+Key generation time - 2.5813378s
+Encryption time - 2.2006ms
+Decryption time - 21.7214ms
+Total time - 2.6052692s
+Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. ~Swami Vivekananda
+Key generation time - 696.7755ms
+Encryption time - 2.301ms
+Decryption time - 21.2521ms
+Total time - 720.3375ms
+All our dreams can come true if we have the courage to pursue them. ~Walt Disney
+Key generation time - 2.9944306s
+Encryption time - 2.2484ms
+Decryption time - 22.1246ms
+Total time - 3.018812s
+Good things come to people who wait, but better things come to those who go out and get them. ~Anonymous
+Key generation time - 2.1839402s
+Encryption time - 2.2125ms
+Decryption time - 21.7474ms
+Total time - 2.2079096s
+If you do what you always did, you will get what you always got. ~Anonymous
+Key generation time - 1.5536233s
+Encryption time - 2.1963ms
+Decryption time - 22.1577ms
+Total time - 1.5779847s
+Success is walking from failure to failure with no loss of enthusiasm. ~Winston Churchill
+Key generation time - 1.0682209s
+Encryption time - 2.3761ms
+Decryption time - 21.8171ms
+Total time - 1.0924229s
+Just when the caterpillar thought the world was ending, he turned into a butterfly. ~Proverb
+Key generation time - 3.9993918s
+Encryption time - 2.2701ms
+Decryption time - 21.4038ms
+Total time - 4.0230745s
+Successful entrepreneurs are givers and not takers of positive energy. ~Anonymous
+Key generation time - 6.1593639s
+Encryption time - 2.1217ms
+Decryption time - 21.0624ms
+Total time - 6.182556s
+Whenever you see a successful person you only see the public glories, never the private sacrifices to reach them. ~Vaibhav Shah
+Key generation time - 1.275554s
+Encryption time - 2.1598ms
+Decryption time - 21.3069ms
+Total time - 1.2990297s
+Opportunities don't happen, you create them. ~Chris Grosser
+Key generation time - 3.3971911s
+Encryption time - 2.3663ms
+Decryption time - 21.18ms
+Total time - 3.420746s
+Try not to become a person of success, but rather try to become a person of value. ~Albert Einstein
+Key generation time - 1.1092897s
+Encryption time - 2.2611ms
+Decryption time - 21.338ms
+Total time - 1.1328998s
+Great minds discuss ideas; average minds discuss events; small minds discuss people. ~Eleanor Roosevelt
+Key generation time - 1.8977135s
+Encryption time - 2.2267ms
+Decryption time - 21.9615ms
+Total time - 1.9219117s
+I have not failed. I've just found 10,000 ways that won't work. ~Thomas A. Edison
+Key generation time - 4.5820156s
+Encryption time - 2.3064ms
+Decryption time - 21.9414ms
+Total time - 4.6062726s
+If you don't value your time, neither will others. Stop giving away your time and talents- start charging for it. ~Kim Garst
+Key generation time - 1.9673217s
+Encryption time - 2.2593ms
+Decryption time - 21.1878ms
+Total time - 1.9907774s
+A successful man is one who can lay a firm foundation with the bricks others have thrown at him. ~David Brinkley
+Key generation time - 1.4299866s
+Encryption time - 2.2114ms
+Decryption time - 21.1254ms
+Total time - 1.4533317s
+No one can make you feel inferior without your consent. ~Eleanor Roosevelt
+Key generation time - 5.3552372s
+Encryption time - 2.282ms
+Decryption time - 21.3584ms
+Total time - 5.3788868s
+The whole secret of a successful life is to find out what is one's destiny to do, and then do it. ~Henry Ford
+Key generation time - 1.5423683s
+Encryption time - 2.2175ms
+Decryption time - 21.4746ms
+Total time - 1.5660684s
+If you're going through hell keep going. ~Winston Churchill
+Key generation time - 5.5845212s
+Encryption time - 2.2436ms
+Decryption time - 20.9366ms
+Total time - 5.6077105s
+The ones who are crazy enough to think they can change the world, are the ones that do. ~Anonymous
+Key generation time - 1.8285788s
+Encryption time - 2.1905ms
+Decryption time - 21.4923ms
+Total time - 1.8522717s
+Don't raise your voice, improve your argument. ~Anonymous
+Key generation time - 1.1744403s
+Encryption time - 2.5591ms
+Decryption time - 21.5165ms
+Total time - 1.1985309s
+What seems to us as bitter trials are often blessings in disguise.~ Oscar Wilde
+Key generation time - 8.535009s
+Encryption time - 2.238ms
+Decryption time - 21.085ms
+Total time - 8.5583406s
+The meaning of life is to find your gift. The purpose of life is to give it away. ~Anonymous
+Key generation time - 4.8345828s
+Encryption time - 2.1431ms
+Decryption time - 21.618ms
+Total time - 4.8583532s
+The distance between insanity and genius is measured only by success. ~Bruce Feirstein
+Key generation time - 1.6184931s
+Encryption time - 2.3261ms
+Decryption time - 22.1682ms
+Total time - 1.6429966s
+When you stop chasing the wrong things you give the right things a chance to catch you. ~Lolly Daskal
+Key generation time - 2.7489056s
+Encryption time - 2.1924ms
+Decryption time - 21.6732ms
+Total time - 2.7727792s
+Don't be afraid to give up the good to go for the great. ~John D. Rockefeller
+Key generation time - 928.0942ms
+Encryption time - 2.2045ms
+Decryption time - 21.578ms
+Total time - 951.8845ms
+No masterpiece was ever created by a lazy artist.~ Anonymous
+Key generation time - 4.6990745s
+Encryption time - 2.1452ms
+Decryption time - 21.0851ms
+Total time - 4.7223126s
+Happiness is a butterfly, which when pursued, is always beyond your grasp, but which, if you will sit down quietly, may alight upon you. ~Nathaniel Hawthorne
+Key generation time - 2.3588187s
+Encryption time - 2.2268ms
+Decryption time - 21.7501ms
+Total time - 2.3828042s
+If you can't explain it simply, you don't understand it well enough. ~Albert Einstein
+Key generation time - 2.0971642s
+Encryption time - 2.25ms
+Decryption time - 21.5051ms
+Total time - 2.1209285s
+Blessed are those who can give without remembering and take without forgetting. ~Anonymous
+Key generation time - 2.8249567s
+Encryption time - 2.2587ms
+Decryption time - 21.3357ms
+Total time - 2.8485575s
+Do one thing every day that scares you. ~Anonymous
+Key generation time - 1.8219545s
+Encryption time - 2.2149ms
+Decryption time - 21.7031ms
+Total time - 1.8458811s
+What's the point of being alive if you don't at least try to do something remarkable. ~Anonymous
+Key generation time - 1.3432777s
+Encryption time - 2.1229ms
+Decryption time - 21.6065ms
+Total time - 1.3670188s
+Life is not about finding yourself. Life is about creating yourself. ~Lolly Daskal
+Key generation time - 1.955448s
+Encryption time - 2.2476ms
+Decryption time - 21.4079ms
+Total time - 1.9791121s
+Nothing in the world is more common than unsuccessful people with talent. ~Anonymous
+Key generation time - 2.0606404s
+Encryption time - 2.1945ms
+Decryption time - 21.6537ms
+Total time - 2.0844964s
+Knowledge is being aware of what you can do. Wisdom is knowing when not to do it. ~Anonymous
+Key generation time - 2.3232717s
+Encryption time - 2.1573ms
+Decryption time - 20.8917ms
+Total time - 2.3463302s
+Your problem isn't the problem. Your reaction is the problem. ~Anonymous
+Key generation time - 1.2694284s
+Encryption time - 2.2582ms
+Decryption time - 21.2579ms
+Total time - 1.2929529s
+You can do anything, but not everything. ~Anonymous
+Key generation time - 3.3754444s
+Encryption time - 2.3134ms
+Decryption time - 20.993ms
+Total time - 3.398759s
+Innovation distinguishes between a leader and a follower. ~Steve Jobs
+Key generation time - 3.7966878s
+Encryption time - 2.2757ms
+Decryption time - 21.7407ms
+Total time - 3.8207125s
+There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed. ~Ray Goforth
+Key generation time - 1.1336012s
+Encryption time - 2.2112ms
+Decryption time - 21.524ms
+Total time - 1.1573446s
+Thinking should become your capital asset, no matter whatever ups and downs you come across in your life. ~Dr. APJ Kalam
+Key generation time - 2.1322052s
+Encryption time - 2.2342ms
+Decryption time - 21.2327ms
+Total time - 2.1556808s
+I find that the harder I work, the more luck I seem to have. ~Thomas Jefferson
+Key generation time - 2.0568014s
+Encryption time - 2.2064ms
+Decryption time - 21.7932ms
+Total time - 2.0808089s
+The starting point of all achievement is desire. ~Napolean Hill
+Key generation time - 1.4325259s
+Encryption time - 2.2303ms
+Decryption time - 21.4695ms
+Total time - 1.4562343s
+Success is the sum of small efforts, repeated day-in and day-out. ~Robert Collier
+Key generation time - 691.1765ms
+Encryption time - 2.3663ms
+Decryption time - 21.124ms
+Total time - 714.6755ms
+If you want to achieve excellence, you can get there today. As of this second, quit doing less-than-excellent work. ~Thomas J. Watson
+Key generation time - 3.8633537s
+Encryption time - 2.1899ms
+Decryption time - 21.7824ms
+Total time - 3.8873336s
+All progress takes place outside the comfort zone. ~Michael John Bobak
+Key generation time - 2.3928668s
+Encryption time - 2.1822ms
+Decryption time - 21.7436ms
+Total time - 2.4168001s
+You may only succeed if you desire succeeding; you may only fail if you do not mind failing. ~Philippos
+Key generation time - 3.9123004s
+Encryption time - 2.2024ms
+Decryption time - 21.1487ms
+Total time - 3.9356594s
+Courage is resistance to fear, mastery of fear - not absense of fear. ~Mark Twain
+Key generation time - 2.4815878s
+Encryption time - 2.4406ms
+Decryption time - 21.3586ms
+Total time - 2.5053956s
+Only put off until tomorrow what you are willing to die having left undone. ~Pablo Picasso
+Key generation time - 3.8208721s
+Encryption time - 2.2183ms
+Decryption time - 21.7539ms
+Total time - 3.8448526s
+People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily. ~Zig Ziglar
+Key generation time - 3.2552935s
+Encryption time - 2.1904ms
+Decryption time - 21.5884ms
+Total time - 3.27908s
+We become what we think about most of the time, and that's the strangest secret. ~Earl Nightingale
+Key generation time - 3.4341805s
+Encryption time - 2.229ms
+Decryption time - 21.6534ms
+Total time - 3.4580719s
+The only place where success comes before work is in the dictionary. ~Vidal Sassoon
+Key generation time - 3.2728887s
+Encryption time - 2.2808ms
+Decryption time - 21.8077ms
+Total time - 3.2969861s
+The best reason to start an organization is to make meaning; to create a product or service to make the world a better place. ~Guy Kawasaki
+Key generation time - 2.2743529s
+Encryption time - 2.2325ms
+Decryption time - 21.7286ms
+Total time - 2.2983229s
+I find that when you have a real interest in life and a curious life, that sleep is not the most important thing. ~Martha Stewart
+Key generation time - 1.1070283s
+Encryption time - 2.34ms
+Decryption time - 21.449ms
+Total time - 1.1308262s
+It's not what you look at that matters, it's what you see. ~Anonymous
+Key generation time - 2.760551s
+Encryption time - 2.2416ms
+Decryption time - 21.2762ms
+Total time - 2.7840768s
+The road to success and the road to failure are almost exactly the same. ~Colin R. Davis
+Key generation time - 1.3950021s
+Encryption time - 2.2555ms
+Decryption time - 21.5085ms
+Total time - 1.4187732s
+The function of leadership is to produce more leaders, not more followers. ~Ralph Nader
+Key generation time - 2.0821216s
+Encryption time - 2.1158ms
+Decryption time - 20.9573ms
+Total time - 2.1052029s
+Success is liking yourself, liking what you do, and liking how you do it. ~Maya Angelou
+Key generation time - 1.296436s
+Encryption time - 2.2545ms
+Decryption time - 22.0211ms
+Total time - 1.3207202s
+As we look ahead into the next century, leaders will be those who empower others. ~Bill Gates
+Key generation time - 1.029143s
+Encryption time - 2.3296ms
+Decryption time - 21.9296ms
+Total time - 1.0534112s
+A real entrepreneur is somebody who has no safety net underneath them. ~Henry Kravis
+Key generation time - 3.0967067s
+Encryption time - 2.1592ms
+Decryption time - 21.4087ms
+Total time - 3.1202818s
+The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself. ~Mark Caine
+Key generation time - 3.6314045s
+Encryption time - 2.2241ms
+Decryption time - 21.8722ms
+Total time - 3.6555091s
+People who succeed have momentum. The more they succeed, the more they want to succeed, and the more they find a way to succeed. ~Tony Robbins
+Key generation time - 2.7371593s
+Encryption time - 2.2171ms
+Decryption time - 20.736ms
+Total time - 2.7601207s
+When I dare to be powerful - to use my strength in the service of my vision, then it becomes less and less important whether I am afraid. ~Audre Lorde
+Key generation time - 1.8667444s
+Encryption time - 2.235ms
+Decryption time - 21.6864ms
+Total time - 1.890675s
+Whenever you find yourself on the side of the majority, it is time to pause and reflect. ~Mark Twain
+Key generation time - 1.7983452s
+Encryption time - 2.2792ms
+Decryption time - 23.4761ms
+Total time - 1.82411s
+The successful warrior is the average man, with laser-like focus. ~Bruce Lee
+Key generation time - 1.152805s
+Encryption time - 2.5151ms
+Decryption time - 21.4576ms
+Total time - 1.1767864s
+Take up one idea. Make that one idea your life -- think of it, dream of it, live on that idea. ~Swami Vivekananda
+Key generation time - 1.3731307s
+Encryption time - 2.2623ms
+Decryption time - 21.4287ms
+Total time - 1.3968311s
+Develop success from failures. Discouragement and failure are two of the surest stepping stones to success. ~Dale Carnegie
+Key generation time - 1.3023908s
+Encryption time - 2.2754ms
+Decryption time - 21.8156ms
+Total time - 1.3264907s
+If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much. ~ Jim Rohn
+Key generation time - 2.5342236s
+Encryption time - 2.1999ms
+Decryption time - 20.9931ms
+Total time - 2.5574244s
+If you genuinely want something, don't wait for it -- teach yourself to be impatient. ~Gurbaksh Chahal
+Key generation time - 3.9537765s
+Encryption time - 2.2339ms
+Decryption time - 21.3347ms
+Total time - 3.9773539s
+Don't let the fear of losing be greater than the excitement of winning. ~Robert Kiyosaki
+Key generation time - 1.5439361s
+Encryption time - 2.2557ms
+Decryption time - 21.5273ms
+Total time - 1.5677282s
+If you want to make a permanent change, stop focusing on the size of your problems and start focusing on the size of you! ~T. Harv Eker
+Key generation time - 784.4314ms
+Encryption time - 2.2182ms
+Decryption time - 21.2898ms
+Total time - 807.9471ms
+You can't connect the dots looking forward; you can only connect them looking backwards. ~Steve Jobs
+Key generation time - 4.9843488s
+Encryption time - 2.2856ms
+Decryption time - 21.4203ms
+Total time - 5.0080638s
+Successful people do what unsuccessful people are not willing to do. Don't wish it were easier, wish you were better. ~Jim Rohn
+Key generation time - 1.6724709s
+Encryption time - 2.219ms
+Decryption time - 21.4079ms
+Total time - 1.6961056s
+The number one reason people fail in life is because they listen to their friends, family, and neighbors. ~Napoleon Hill
+Key generation time - 1.5090779s
+Encryption time - 2.245ms
+Decryption time - 21.1724ms
+Total time - 1.5325101s
+The reason most people never reach their goals is that they don't define them, or ever seriously consider them as believable or achievable. ~Denis Watiley
+Key generation time - 3.829927s
+Encryption time - 2.22ms
+Decryption time - 21.5556ms
+Total time - 3.8537117s
+In my experience, there is only one motivation, and that is desire. No reasons or principle contain it or stand against it. ~Jane Smiley
+Key generation time - 3.462754s
+Encryption time - 2.1813ms
+Decryption time - 21.2758ms
+Total time - 3.4862184s
+Success does not consist in never making mistakes but in never making the same one a second time. ~George Bernard Shaw
+Key generation time - 5.361018s
+Encryption time - 2.3428ms
+Decryption time - 21.2128ms
+Total time - 5.3845828s
+I don't want to get to the end of my life and find that I lived just the length of it. I want to have lived the width of it as well. ~Diane Ackerman
+Key generation time - 1.5385269s
+Encryption time - 2.3878ms
+Decryption time - 21.2384ms
+Total time - 1.5621618s
+You must expect great things of yourself before you can do them. ~Michael Jordan
+Key generation time - 3.0566991s
+Encryption time - 2.1881ms
+Decryption time - 22.2054ms
+Total time - 3.0811004s
+Motivation is what gets you started. Habit is what keeps you going. ~Jim Ryun
+Key generation time - 2.5017059s
+Encryption time - 2.5458ms
+Decryption time - 21.3062ms
+Total time - 2.5255664s
+People rarely succeed unless they have fun in what they are doing. ~Dale Carnegie
+Key generation time - 1.2780413s
+Encryption time - 2.3209ms
+Decryption time - 22.27ms
+Total time - 1.3026443s
+There is no chance, no destiny, no fate, that can hinder or control the firm resolve of a determined soul. ~Ella Wheeler Wilcox
+Key generation time - 2.0534345s
+Encryption time - 2.1237ms
+Decryption time - 21.4121ms
+Total time - 2.0769782s
+Our greatest fear should not be of failure but of succeeding at things in life that don't really matter. ~Francis Chan
+Key generation time - 1.8081274s
+Encryption time - 2.1756ms
+Decryption time - 21.1853ms
+Total time - 1.8314961s
+You've got to get up every morning with determination if you're going to go to bed with satisfaction. ~George Lorimer
+Key generation time - 3.953077s
+Encryption time - 2.233ms
+Decryption time - 21.6999ms
+Total time - 3.9770189s
+To be successful you must accept all challenges that come your way. You can't just accept the ones you like. ~Mike Gafka
+Key generation time - 2.4426724s
+Encryption time - 2.3985ms
+Decryption time - 21.5244ms
+Total time - 2.4666042s
+Success is...knowing your purpose in life, growing to reach your maximum potential, and sowing seeds that benefit others. ~ John C. Maxwell
+Key generation time - 2.5916611s
+Encryption time - 2.2609ms
+Decryption time - 21.7181ms
+Total time - 2.6156479s
+Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice. ~Wayne Dyer
+Key generation time - 1.9887999s
+Encryption time - 3.7072ms
+Decryption time - 21.9018ms
+Total time - 2.0144188s
+To accomplish great things, we must not only act, but also dream, not only plan, but also believe.~ Anatole France
+Key generation time - 1.528643s
+Encryption time - 2.3099ms
+Decryption time - 21.4085ms
+Total time - 1.5523699s
+Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no help at all. ~Dale Carnegie
+Key generation time - 3.1017801s
+Encryption time - 2.259ms
+Decryption time - 21.1583ms
+Total time - 3.1252062s
+You measure the size of the accomplishment by the obstacles you had to overcome to reach your goals. ~Booker T. Washington
+Key generation time - 3.1291858s
+Encryption time - 2.2379ms
+Decryption time - 21.6262ms
+Total time - 3.1530579s
+Real difficulties can be overcome; it is only the imaginary ones that are unconquerable. ~Theodore N. Vail
+Key generation time - 1.9511834s
+Encryption time - 2.3363ms
+Decryption time - 21.3336ms
+Total time - 1.9748618s
+It is better to fail in originality than to succeed in imitation. ~Herman Melville
+Key generation time - 2.7707922s
+Encryption time - 2.1278ms
+Decryption time - 20.7424ms
+Total time - 2.7936699s
+Fortune sides with him who dares. ~Virgil
+Key generation time - 1.6687858s
+Encryption time - 2.1542ms
+Decryption time - 21.4273ms
+Total time - 1.6923768s
+Little minds are tamed and subdued by misfortune; but great minds rise above it. ~Washington Irving
+Key generation time - 3.0574783s
+Encryption time - 2.2333ms
+Decryption time - 21.4129ms
+Total time - 3.0811334s
+Failure is the condiment that gives success its flavor. ~Truman Capote
+Key generation time - 1.7644406s
+Encryption time - 2.1867ms
+Decryption time - 21.2094ms
+Total time - 1.7878447s
+Don't let what you cannot do interfere with what you can do. ~John R. Wooden
+Key generation time - 2.2344838s
+Encryption time - 2.1956ms
+Decryption time - 21.6732ms
+Total time - 2.2583613s
+You may have to fight a battle more than once to win it. ~Margaret Thatcher
+Key generation time - 2.575473s
+Encryption time - 2.1632ms
+Decryption time - 21.0788ms
+Total time - 2.5987236s
+Do or do not, there is no try. ~Yoda
+Key generation time - 2.252421s
+Encryption time - 2.2386ms
+Decryption time - 21.2967ms
+Total time - 2.2759651s
