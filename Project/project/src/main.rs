@@ -100,11 +100,17 @@ fn rsa(message: String) -> String {
 }
 
 fn test_on_quotes(algorithm: &str){
+    // get file name
     let mut stats_file_name: String = "./".to_owned();
     stats_file_name.push_str(&algorithm.to_string());
     stats_file_name.push_str("_stats.txt");
+
+    // open file, create if not found
     let mut stats_file = fs::OpenOptions::new().append(true).create(true).open(&stats_file_name).expect("Can not open file.");
+
+    // for each line in quotes, call either kyber or rsa dependent on what the parameter was
     for line in read_to_string("./quotes.txt").unwrap().lines() {
+        // show for progress
         println!("{}", line);
         if algorithm == "kyber" {
             stats_file.write_all(line.as_bytes()).expect("Unable to read line.");
@@ -121,9 +127,12 @@ fn test_on_quotes(algorithm: &str){
 
 
 fn main(){
-    println!(" ===== Kyber =====");
-    println!("{}", kyber("this thing on?".to_string()));
-    println!(" =====  RSA  =====");
-    println!("{}", rsa("this thing on?".to_string()));
+    // println!(" ===== Kyber =====");
+    // println!("{}", kyber("this thing on?".to_string()));
+    // println!(" =====  RSA  =====");
+    // println!("{}", rsa("this thing on?".to_string()));
+
+    // ===== Uncomment to run tests =====
     //test_on_quotes("kyber");
+    //test_on_quotes("rsa");
 }
